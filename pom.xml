@@ -6,7 +6,7 @@
     <groupId>org.zerhusen</groupId>
     <artifactId>jwt-spring-security-demo</artifactId>
     <version>0.2.0</version>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <name>jwt-spring-security-demo</name>
     <description>Demo project for JWT with Spring Boot and Spring Security</description>
@@ -67,6 +67,15 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+            <scope>provided</scope>
         </dependency>
 
         <dependency>
